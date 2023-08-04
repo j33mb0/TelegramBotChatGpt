@@ -15,7 +15,7 @@ namespace TelegramBotChatGpt.Services
         {
             await using var audioInputStream = File.Open(string.Concat(path, fileName, ".mp3"), FileMode.Open);
             await using var audioOutputStream = File.Open(string.Concat(path, fileName, ".ogg"), FileMode.OpenOrCreate);
-
+            // hello git
 
             FFMpegArguments
                 .FromPipeInput(new StreamPipeSource(audioInputStream))
