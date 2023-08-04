@@ -3,10 +3,7 @@ using TelegramBotChatGpt.Models;
 
 namespace TelegramBotChatGpt.Services
 {
-    /// <summary>
-    /// i think it also finished
-    /// </summary>
-    /// 
+    
     internal class ChatGpt
     {
         string apiKey = "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";
